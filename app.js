@@ -56,7 +56,7 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage) {
     let messageDiv = document.createElement('div');
 
     humanDiv.innerHTML = "<img src = '" + imagesDatabase[humanImageChoice] + "' height = 150 width = 150 style = 'box-shadow: 0px 10px 50px rgba(37,50,233,1);'>"
-    messageDiv.innerHTML = "<h1 style = 'color: " + finalMessage['color'] + "; font-size: 50px; padding: 20px; '>" + finalMessage['message'] + "</h1>"
+    messageDiv.innerHTML = "<h1 style = 'color: " + finalMessage['color'] + "; font-size: 30px; padding: 15px; '>" + finalMessage['message'] + "</h1>"
     botDiv.innerHTML = "<img src = '" + imagesDatabase[botImageChoice] + "' height = 150 width = 150 style = 'box-shadow: 0px 10px 50px rgba(37,50,233,1);'>"
     document.getElementById('rps-images').appendChild(humanDiv);
     document.getElementById('rps-images').appendChild(messageDiv);
