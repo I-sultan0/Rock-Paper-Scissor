@@ -4,11 +4,7 @@
   text-align: center;
   margin: 0 auto;
 }
-.container h2 {
-  font-size: 35px;
-}
 .rps-images {
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
