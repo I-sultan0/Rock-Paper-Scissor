@@ -1,0 +1,26 @@
+.container {
+  border: 1px solid black;
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+.rps-images {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.rps-images img:hover {
+  box-shadow: 0px 10px 40px rgba(12, 11, 254, 0.8);
+  cursor: pointer;
+}
+
+#reload {
+  padding: 10px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 25px;
+  color: burlywood;
+  background-color: darkslategrey;
+}
